@@ -23,7 +23,7 @@
                 class="form-control" placeholder="fname" [(ngModel)]="job.postedBy.firstName" name="postedBy firstName"
                 required><br>
             <div *ngIf='fname.errors && jobForm.touched' class="alert alert-danger">
-                <div *ngIf='fname.errors.required'>Provide first name</div>
+                <div *ngIf='fname.errors.required'>Provide first Name</div>
                 <div *ngIf='!fname.errors.pattern'>Name should contain atleast 3 characters</div>
             </div>
         </div>
